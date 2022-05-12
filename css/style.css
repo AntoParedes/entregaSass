@@ -145,8 +145,8 @@ main .tamañoCarousel {
 }
 #Opiniones .opinions {
   text-align: center;
-  background: rgb(200, 182, 255);
-  background: linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
+  background: rgb(200, 182, 255) linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
+  font-size: italic;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -236,9 +236,8 @@ section .formCtc {
   display: inline-block;
 }
 section .formCtc legend {
-  background: rgb(200, 182, 255);
-  background: linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
-  font-style: italic;
+  background: rgb(200, 182, 255) linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
+  font-size: italic;
 }
 @media only screen and (max-width: 640px) {
   section .formCtc {
@@ -280,8 +279,8 @@ section form div input[type=password] {
 }
 
 section .bodysTitle {
-  background: rgb(200, 182, 255);
-  background: linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
+  background: rgb(200, 182, 255) linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
+  font-size: italic;
   text-align: center;
   margin-bottom: 10px;
   margin-top: 20px;
@@ -295,12 +294,12 @@ section .tamañoCard {
   width: auto;
 }
 section .botonColor {
-  background: rgb(200, 182, 255);
-  background: linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
+  background: rgb(200, 182, 255) linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
+  font-size: italic;
 }
 section .setsTitle {
-  background: rgb(200, 182, 255);
-  background: linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
+  background: rgb(200, 182, 255) linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
+  font-size: italic;
   text-align: center;
   margin-bottom: 10px;
   margin-top: 20px;
@@ -309,8 +308,8 @@ section .setsTitle {
 .titleProductos {
   display: flex;
   width: 100%;
-  background: rgb(200, 182, 255);
-  background: linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
+  background: rgb(200, 182, 255) linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
+  font-size: italic;
   text-align: center;
   justify-content: center;
   margin-top: 20px;
@@ -326,8 +325,8 @@ section .setsTitle {
   width: auto;
 }
 .marginCards .botonColor {
-  background: rgb(200, 182, 255);
-  background: linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
+  background: rgb(200, 182, 255) linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
+  font-size: italic;
 }
 
 section .acordeonProductos {

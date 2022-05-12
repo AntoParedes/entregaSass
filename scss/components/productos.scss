@@ -1,8 +1,10 @@
+@import '../base/variables';
+
 .titleProductos {
     display: flex;
     width: 100%;
-    background: rgb(200, 182, 255);
-    background: linear-gradient(188deg, rgba(200, 182, 255, 1) 22%, rgba(255, 214, 255, 1) 53%, rgba(200, 182, 255, 1) 88%);
+    background: $bgColortitulos;
+    font-size: $fontStyletitulos;
     text-align: center;
     justify-content: center;
     margin-top: 20px;
@@ -20,8 +22,8 @@
 
 
 .botonColor {
-    background: rgb(200, 182, 255);
-    background: linear-gradient(188deg, rgba(200, 182, 255, 1) 22%, rgba(255, 214, 255, 1) 53%, rgba(200, 182, 255, 1) 88%);
+    background: $bgColortitulos;
+    font-size: $fontStyletitulos;
 }
 
 }

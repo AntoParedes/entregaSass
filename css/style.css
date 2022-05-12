@@ -11,7 +11,11 @@ header .botonlogo {
 }
 header #btn-menu {
   display: none;
-  /* mediaquery VER */
+}
+@media only screen and (max-width: 640px) {
+  header #btn-menu:checked ~ .menu {
+    margin: 0;
+  }
 }
 header label {
   display: none;
@@ -24,7 +28,14 @@ header label:hover {
   cursor: pointer;
   background: rgb(0, 0, 0);
 }
-header .sizeMenu {
+@media only screen and (max-width: 640px) {
+  header label {
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+}
+header label .sizeMenu {
   height: 30px;
   width: 30px;
 }
@@ -46,6 +57,31 @@ header .menu ul li a {
   padding: 15px 20px;
   color: #fff;
   text-decoration: none;
+}
+@media only screen and (max-width: 640px) {
+  header .menu ul li {
+    border-top: 1px solid #fff;
+  }
+}
+@media only screen and (max-width: 640px) {
+  header .menu ul {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 640px) {
+  header .menu {
+    position: absolute;
+    background: #c8b6ff;
+    width: 70%;
+    margin-left: -70%;
+    transition: all 0.5s;
+    z-index: 1;
+  }
+}
+
+.modiCtc {
+  height: 30px;
+  width: 30px;
 }
 
 * {
@@ -83,6 +119,11 @@ main .tittlePag {
   font-size: 40px;
   margin-top: 20px;
 }
+@media only screen and (max-width: 640px) {
+  main .tittlePag {
+    font-size: 30px;
+  }
+}
 main .parrafoIndex {
   background-color: rgba(200, 182, 255, 0.631372549);
   text-align: center;
@@ -94,6 +135,14 @@ main .tamañoCarousel {
   height: 500px;
 }
 
+@media only screen and (max-width: 640px) {
+  #Opiniones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 #Opiniones .opinions {
   text-align: center;
   background: rgb(200, 182, 255);
@@ -101,6 +150,14 @@ main .tamañoCarousel {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+@media only screen and (max-width: 640px) {
+  #Opiniones .opinions {
+    background-color: #c8b6ff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
 #Opiniones .caja {
   height: 200px;
@@ -123,8 +180,20 @@ main .tamañoCarousel {
   /* COPYRIGHT */
   /* IMAGENES REDES */
 }
+@media only screen and (max-width: 640px) {
+  .footerContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+}
 .footerContainer .divMap {
   padding-bottom: 70px;
+}
+@media only screen and (max-width: 640px) {
+  .footerContainer .divMap {
+    order: 0;
+  }
 }
 .footerContainer .divCopy .copyRight {
   display: flex;
@@ -132,6 +201,13 @@ main .tamañoCarousel {
   align-items: unset;
   justify-content: center;
   text-align: center;
+}
+@media only screen and (max-width: 640px) {
+  .footerContainer .divCopy {
+    order: 3;
+    margin-top: -100px;
+    margin-bottom: 50px;
+  }
 }
 .footerContainer .imgRedes .fa-instagram {
   font-size: 40px;
@@ -153,7 +229,9 @@ main .tamañoCarousel {
 }
 
 section .formCtc {
-  margin-left: 20px;
+  margin-top: 20px;
+  margin-left: 2%;
+  align-items: center;
   box-sizing: border-box;
   display: inline-block;
 }
@@ -161,6 +239,11 @@ section .formCtc legend {
   background: rgb(200, 182, 255);
   background: linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
   font-style: italic;
+}
+@media only screen and (max-width: 640px) {
+  section .formCtc {
+    margin-left: 50px;
+  }
 }
 section form div input[type=text] {
   font-size: 20px;
@@ -299,6 +382,11 @@ section .acordeonProductos .bgBoton2 {
 .Formulario .link:hover {
   cursor: pointer;
   color: #5a2ce2;
+}
+
+.modiCtc {
+  height: 30px;
+  width: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -26,6 +26,9 @@ main {
         color: #0b525b;
         font-size: 40px;
         margin-top: 20px;
+        @media only screen and (max-width: 640px) {
+            font-size: 30px;
+        }
     }
 
     .parrafoIndex {
@@ -43,6 +46,12 @@ main {
 
 #Opiniones {
 
+     @media only screen and (max-width: 640px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .opinions {
         text-align: center;
         background: rgb(200, 182, 255);
@@ -50,8 +59,13 @@ main {
         width: 100%;
         display: flex;
         justify-content: center;
+        @media only screen and (max-width: 640px) { 
+            background-color: #c8b6ff;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
     }
-
     .caja {
         height: 200px;
         width: 300px;

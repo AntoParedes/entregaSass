@@ -11,25 +11,36 @@ header {
     /*  encabezado zona navegable-*/
     #btn-menu {
         display: none;
-
-        /* mediaquery VER */
-    }
-    label{
-    display: none;
-    width: 130px;
-    height: 25px;
-    padding: 10px;
-    border-right: 1px solid #fff;
-    &:hover{
+    
+        @media only screen and (max-width: 640px) {
+            &:checked~.menu{
+                margin:0;
+            }
+            }
+        }
+    
+    label {
+        display: none;
+        width: 130px;
+        height: 25px;
+        padding: 10px;
+        border-right: 1px solid #fff;
+        &:hover {
         cursor: pointer;
         background: rgba(0, 0, 0, 3);
-    }
-    }
-    .sizeMenu {
+        }
+        @media only screen and (max-width: 640px) {
+            display: block;
+            height: 50px;
+            width: 50px;
+    
+        }
+    
+        .sizeMenu {
         height: 30px;
         width: 30px;
+        }
     }
-
     .menu {
         width: 100%;
         ul {
@@ -40,7 +51,7 @@ header {
             justify-content: center;
 
             li {
-                &:hover{
+                &:hover {
                     background: rgba(0, 0, 0, 3);
                 }
 
@@ -49,10 +60,32 @@ header {
                     padding: 15px 20px;
                     color: #fff;
                     text-decoration: none;
-
                 }
+
+                @media only screen and (max-width: 640px) {
+                    border-top: 1px solid #fff;
+                }
+
+            }
+
+            @media only screen and (max-width: 640px) {
+                flex-direction: column;
             }
         }
-    }
 
+    @media only screen and (max-width: 640px) {
+        
+            position: absolute;
+            background: #c8b6ff;
+            width: 70%;
+            margin-left: -70%;
+            transition: all 0.5s;
+            z-index: calc(1);
+            }
+        
+    }
+}
+.modiCtc{
+    height: 30px;
+    width: 30px;
 }

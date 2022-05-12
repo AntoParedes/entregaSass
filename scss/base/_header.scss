@@ -1,0 +1,58 @@
+header {
+    width: 100%;
+    background: #c8b6ff;
+
+    .botonlogo {
+        display: flex;
+        justify-content: center;
+        background-color: #FFD6FF;
+    }
+
+    /*  encabezado zona navegable-*/
+    #btn-menu {
+        display: none;
+
+        /* mediaquery VER */
+    }
+    label{
+    display: none;
+    width: 130px;
+    height: 25px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+    &:hover{
+        cursor: pointer;
+        background: rgba(0, 0, 0, 3);
+    }
+    }
+    .sizeMenu {
+        height: 30px;
+        width: 30px;
+    }
+
+    .menu {
+        width: 100%;
+        ul {
+            margin: 0;
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+
+            li {
+                &:hover{
+                    background: rgba(0, 0, 0, 3);
+                }
+
+                a {
+                    display: block;
+                    padding: 15px 20px;
+                    color: #fff;
+                    text-decoration: none;
+
+                }
+            }
+        }
+    }
+
+}

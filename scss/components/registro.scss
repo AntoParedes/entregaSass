@@ -1,0 +1,49 @@
+.Formulario {
+    background: rgba(255, 255, 255, 0.288);
+    background-position: 15px;
+    margin-top: 1px;
+    padding: 3px;
+    display: inline-block;
+
+    .titRegistro {
+        text-align: center;
+        color: #c8b6ff;
+        font-size: 40px;
+    }
+
+    .input-contenedor {
+        margin-bottom: 15px;
+        border: 1px solid #aaa;
+    }
+
+    .icon {
+        min-width: 50px;
+        text-align: center;
+        color: #999;
+    }
+
+    .button {
+        border: none;
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        background: #c8b6ff;
+        padding: 15px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+            color:  #5a2ce2;
+        }
+    }
+
+    .link {
+        text-decoration: none;
+        color: #9071ee;
+        font-weight: 600;
+        &:hover {
+            cursor: pointer;
+           color:#5a2ce2;
+
+        }
+    }
+}

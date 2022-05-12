@@ -1,0 +1,49 @@
+.footerContainer {
+    background-color: #c8b6ff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-top: 20px;
+
+    .divMap {
+        padding-bottom: 70px;
+    }
+
+    /* COPYRIGHT */
+    .divCopy {
+        .copyRight {
+            display: flex;
+            padding-top: 200px;
+            align-items: unset;
+            justify-content: center;
+            text-align: center;
+        }
+
+    }
+
+    /* IMAGENES REDES */
+    .imgRedes {
+        .fa-instagram {
+            font-size: 40px;
+            margin-left: 10px;
+            text-decoration: none;
+            color: #FFD6FF;
+        }
+    }
+
+    .fa-twitter {
+        font-size: 40px;
+        margin-left: 10px;
+        text-decoration: none;
+        color: #FFD6FF;
+    }
+
+    .fa-whatsapp {
+        font-size: 40px;
+        margin-left: 10px;
+        text-decoration: none;
+        color: #FFD6FF;
+    }
+}

@@ -1,0 +1,41 @@
+.titleProductos {
+    display: flex;
+    width: 100%;
+    background: rgb(200, 182, 255);
+    background: linear-gradient(188deg, rgba(200, 182, 255, 1) 22%, rgba(255, 214, 255, 1) 53%, rgba(200, 182, 255, 1) 88%);
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.marginCards {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .tamañoCard {
+        height: 250px;
+        width: auto;
+    }
+
+
+.botonColor {
+    background: rgb(200, 182, 255);
+    background: linear-gradient(188deg, rgba(200, 182, 255, 1) 22%, rgba(255, 214, 255, 1) 53%, rgba(200, 182, 255, 1) 88%);
+}
+
+}
+
+section {
+    .acordeonProductos {
+        margin-top: 30px;
+
+        .bgBoton {
+            background-color: #ffd6ff9a;
+        }
+
+        .bgBoton2 {
+            background-color: rgba(255, 214, 255, 0.568);
+        }
+    }
+}

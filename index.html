@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/9d0353a196.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Inicio</title>
+</head>
+
+<body>
+    <!--boton registro (va en parte superior derecha )-->
+    <ul class="botonregist">
+        <li>
+            <a href="registro.html">Registro</a>
+            <img src="imagenes/user.png" height="20px" width="20px" />
+        </li>
+    </ul>
+    <!--encabezado-->
+    <header>
+        <a class="botonlogo" href="index.html">
+            <img class="imgLogo" src="imagenes/logo.png" />
+        </a>
+        <!--encabezado-->
+        <!--zona navegable- menu-->
+        <input type="checkbox" id="btn-menu" />
+        <label for="btn-menu">
+            <img class="sizeMenu" src="imagenes/menu2.png" alt="img menu barras" />
+        </label>
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="productos.html">Productos</a>
+                </li>
+
+                <li>
+                    <a href="masvendidos.html">Más vendidos</a>
+                </li>
+                <li>
+                    <a href="index.html#Opiniones">Opiniones</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--main engloba lo principal en mi pag-->
+    <main>
+        <!--SECCIÓN UNO-->
+        <section>
+            <h1 class="tittlePag animate__animated animate__fadeInRight">
+                Everyone's Perfect
+            </h1>
+
+            <p class="parrafoIndex">
+                <strong>
+                    Everyone's Perfect es un emprendimiento familiar surgido en 2020
+                    <br />
+                    donde podés encontrar todos los talles e incluso, ¡jugar con tu
+                    imaginación!<br />
+                    Animate a enviarnos tu idea y a hacerla realidad.
+                </strong>
+            </p>
+        </section>
+        <!--seccion dos-->
+
+        <!--carrousel-->
+        <div id="carouselExampleSlidesOnly" class="carousel slide container tamañoCarousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/lenc1.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/lenc3.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/lenc4.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/lenc5.jpg" class="d-block w-100" alt="..." />
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section id="Opiniones">
+        <h2 class="opinions">Opiniones</h2>
+        <img src="imagenes/opiniones-clientes.png" class="caja" />
+
+        <img src="imagenes/opiniones-clientes.png" class="caja" />
+
+        <img src="imagenes/opiniones-clientes.png" class="caja" />
+
+        <img src="imagenes/opiniones-clientes.png" class="caja" />
+
+    </section>
+    <!--PIE DE PAGINA-->
+
+    <footer class="footerContainer">
+        <!--Map del sitio-->
+        <div class="divMap">
+            <p>Encontranos en:</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.259042106745!2d-58.744410485611056!3d-34.546996080474166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc97d915668a59%3A0x6b958fd8f155a723!2sSalerno%203190%2C%20B1663JYK%20San%20Miguel%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1648601301888!5m2!1ses!2sar"
+                width="200" height="150" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <!-- COPYRIGHT -->
+        <div class="divCopy">
+            <p class="copyRight">© COPYRIGHT</p>
+        </div>
+
+        <!--IMAGENES DE REDES-->
+        <div class="imgRedes">
+            <a href="index.html">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="index.html">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="index.html">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

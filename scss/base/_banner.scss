@@ -1,0 +1,25 @@
+.seccionDatos{
+    display: flex;
+    background-color: #ffc8dd94;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .divDatos{
+        .imgDatos{
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+
+        }
+        .imgMediosdepago{
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        }
+    }
+
+}

@@ -1,0 +1,66 @@
+.botonregist {
+    text-align: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+        a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #c8b6ff;
+            display: inline-block;
+            &:hover{
+                cursor: pointer;
+                background: rgba(0, 0, 0, 3);
+            }
+        
+        }
+    }
+}
+
+main {
+
+    .tittlePag {
+        text-align: center;
+        color: #0b525b;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .parrafoIndex {
+        background-color: #c8b6ffa1;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .tamañoCarousel {
+        width: 300px;
+        height: 500px;
+    }
+}
+
+#Opiniones {
+
+    .opinions {
+        text-align: center;
+        background: rgb(200, 182, 255);
+        background: linear-gradient(188deg, rgba(200, 182, 255, 1) 22%, rgba(255, 214, 255, 1) 53%, rgba(200, 182, 255, 1) 88%);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .caja {
+        height: 200px;
+        width: 300px;
+
+        &:hover {
+            transform: scale(1.5);
+            transition-property: all;
+            transition-duration: 3s;
+        }
+    }
+
+}

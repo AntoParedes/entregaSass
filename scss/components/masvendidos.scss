@@ -2,7 +2,7 @@
 section {
     .bodysTitle {
         background: $bgColortitulos;
-        font-size: $fontStyletitulos;
+        font-style: $fontStyletitulos;
         text-align: center;
         margin-bottom: 10px;
         margin-top: 20px;
@@ -18,15 +18,9 @@ section {
         width: auto;
         }
 
-    .botonColor {
-        background: $bgColortitulos;
-        font-size: $fontStyletitulos;
-
-    }
-
     .setsTitle {
         background: $bgColortitulos;
-        font-size: $fontStyletitulos;
+        font-style: $fontStyletitulos;
         text-align: center;
         margin-bottom: 10px;
         margin-top: 20px;

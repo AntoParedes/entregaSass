@@ -1,5 +1,5 @@
 @import '../base/variables';
-
+@import '../base/mediaquerys';
 .botonregist {
     text-align: right;
     list-style-type: none;
@@ -28,7 +28,7 @@ main {
         color: #0b525b;
         font-size: 40px;
         margin-top: 20px;
-        @media only screen and (max-width: 640px) {
+        @include mobile{
             font-size: 30px;
         }
     }
@@ -45,28 +45,29 @@ main {
         height: 500px;
     }
 }
-
+/* mixin */
 #Opiniones {
-
-     @media only screen and (max-width: 640px) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    @include mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
+
     .opinions {
         text-align: center;
         background: $bgColortitulos;
-        font-size: $fontStyletitulos;
+        font-style: $fontStyletitulos;
         width: 100%;
         display: flex;
         justify-content: center;
-        @media only screen and (max-width: 640px) { 
+        @include mobile{
             background-color: #c8b6ff;
             width: 100%;
             display: flex;
-            justify-content: center;
+            justify-content: center
         }
+        
     }
     .caja {
         height: 200px;

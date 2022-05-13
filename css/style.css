@@ -324,9 +324,11 @@ section .setsTitle {
   height: 250px;
   width: auto;
 }
-.marginCards .botonColor {
+
+/* Agrego mapa */
+.botonColor {
   background: rgb(200, 182, 255) linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
-  font-size: italic;
+  font-style: italic;
 }
 
 section .acordeonProductos {

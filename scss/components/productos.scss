@@ -1,5 +1,5 @@
 @import '../base/variables';
-
+@import '../base/mapas';
 .titleProductos {
     display: flex;
     width: 100%;
@@ -20,12 +20,11 @@
         width: auto;
     }
 
-
-.botonColor {
-    background: $bgColortitulos;
-    font-size: $fontStyletitulos;
 }
-
+/* Agrego mapa */
+.botonColor {
+    background: map-get($boton, botoncolor);
+    font-style: map-get($boton, fontStyle );
 }
 
 section {

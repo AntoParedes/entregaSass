@@ -25,6 +25,7 @@
 .botonColor {
     background: map-get($boton, botoncolor);
     font-style: map-get($boton, fontStyle );
+    border: map-get($boton, border );
 }
 
 section {

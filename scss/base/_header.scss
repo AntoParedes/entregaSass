@@ -5,6 +5,8 @@ header {
     .botonlogo {
         display: flex;
         justify-content: center;
+        /* extend */
+        @extend %flex;
         background-color: #FFD6FF;
     }
 

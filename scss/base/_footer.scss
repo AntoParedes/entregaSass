@@ -1,3 +1,5 @@
+@import '../base/extends';
+
 .footerContainer {
 
     background-color: #c8b6ff;
@@ -29,7 +31,6 @@
             display: flex;
             padding-top: 200px;
             align-items: unset;
-            justify-content: center;
             text-align: center;
         }
 
@@ -42,7 +43,7 @@
 
     /* IMAGENES REDES */
     .imgRedes {
-        .fa-instagram {
+    .fa-instagram {
             font-size: 40px;
             margin-left: 10px;
             text-decoration: none;

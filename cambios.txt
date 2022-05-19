@@ -1,0 +1,9 @@
+Cambio de títulos ____ "| Everyone's Perfect Lingerie"
+
+title="Encontranos en:" footer iframe
+
+<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon"/>
+
+Agrego meta description.
+Agrego keywords.
+Agrego opengraph 

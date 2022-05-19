@@ -7,6 +7,7 @@ header {
 header .botonlogo {
   display: flex;
   justify-content: center;
+  /* extend */
   background-color: #FFD6FF;
 }
 header #btn-menu {
@@ -149,8 +150,6 @@ main .tamañoCarousel {
   background: rgb(200, 182, 255) linear-gradient(188deg, rgb(200, 182, 255) 22%, rgb(255, 214, 255) 53%, rgb(200, 182, 255) 88%);
   font-style: italic;
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 @media only screen and (max-width: 640px) {
   #Opiniones .opinions {
@@ -168,6 +167,11 @@ main .tamañoCarousel {
   transform: scale(1.5);
   transition-property: all;
   transition-duration: 3s;
+}
+
+header .botonlogo {
+  display: flex;
+  justify-content: center;
 }
 
 .footerContainer {
@@ -200,7 +204,6 @@ main .tamañoCarousel {
   display: flex;
   padding-top: 200px;
   align-items: unset;
-  justify-content: center;
   text-align: center;
 }
 @media only screen and (max-width: 640px) {
@@ -386,6 +389,11 @@ section .acordeonProductos .bgBoton2 {
 .modiCtc {
   height: 30px;
   width: 30px;
+}
+
+header .botonlogo {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
